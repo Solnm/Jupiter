@@ -35,13 +35,20 @@ export function AppLayout({ children }: { children: ReactNode }) {
           { display: 'flex', alignItems: 'center', gap: '20px'}}
        
        >
-          <Link href="https://twitter.com/Solpadnft">
+          <Link href="https://www.linkedin.com/company/solpad-nft">
+            <img src="/li.png" height={30} />
+          </Link>
+         
+
+         <Link href="https://twitter.com/Solpadnft">
             <img src="/tw.png" height={30} />
           </Link>
+         
 
           <Link href="https://discord.gg/jmMY8MrQCt">
             <img src="/d.png" height={30} />
           </Link>
+
           
           <Link href="https://github.com/Solpad-art/Jupiter-integration">
             <img src="/gi.png" height={30} />
